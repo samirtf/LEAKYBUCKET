@@ -5,9 +5,9 @@ LeakyBucket is a clone of storage and data such as Dropbox, OneDrive, googledriv
 
 Description of the activity
 The design LeakyBucket as distributed backup tool should include 3 major components:
-# Monitoring - Detection of changes to the local file system.
-# Remote Storage - Transmission of data stored locally to the server. Access to data stored remotely.
-# Synchronization and conflict resolution - Definition of differences between local and remotely stored data.
+Monitoring - Detection of changes to the local file system.
+Remote Storage - Transmission of data stored locally to the server. Access to data stored remotely.
+Synchronization and conflict resolution - Definition of differences between local and remotely stored data.
 
 Two concerns are important in the design of this system. 
 First, it must be reliable; latest copies of files can 
